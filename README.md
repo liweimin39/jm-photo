@@ -34,7 +34,7 @@
 2.  **部分漫画无法分割**：由于网站脚本可能更新，或部分漫画采用了其他保护机制，**并非所有漫画图片都能保证成功分割重组**。
 3.  **自行维护更新**：当工具失效时，需要您参考CSDN上相关文章的**最新分析和修改方法**，对工具中的分割逻辑（如`get_num`函数中的参数范围、模数）进行相应调整。
     - 主要参考文章：
-      - [糕手](https://blog.csdn.net/qq_36684855/article/details/121582883)
+      - [Code糕手](https://blog.csdn.net/qq_36684855/article/details/121582883)
       - [error=Nil](https://blog.csdn.net/m0_50233241/article/details/148189510)
 4.  **测试站**：您可以使用 `https://jm.xiaoli.icpx.store/` 进行功能测试，但其图片链接与正式站可能不同。
 
@@ -46,7 +46,7 @@
 
 ## 致谢
 
-- 感谢CSDN博主 [糕手](https://blog.csdn.net/qq_36684855) 和 [error=Nil](https://blog.csdn.net/m0_50233241) 提供的逆向分析与核心逻辑。  
+- 感谢CSDN博主 [Code糕手](https://blog.csdn.net/qq_36684855) 和 [error=Nil](https://blog.csdn.net/m0_50233241) 提供的逆向分析与核心逻辑。  
 
 ## 免责声明
 
