@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>极简 · WebP重组 · 智能页码检测</title>
+    
+    <!-- 外部样式表 -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- 依赖库 -->
+    <script src="md5.min.js"></script>
+    <script src="layers-calculator.js"></script>
+</head>
+<body>
+    <!-- 输入区域：JM号 + CDN选择 + 加载按钮 -->
+    <div id="inputArea">
+        <label for="jmId">📖 JM号：</label>
+        <input type="number" id="jmId" placeholder="输入JM号" min="1">
+        
+        <label for="cdnSelect">🌐 CDN：</label>
+        <select id="cdnSelect"></select>
+        
+        <button id="startBtn">✨ 加载图片</button>
+    </div>
+
+    <!-- 状态提示 -->
+    <div id="status"></div>
+
+    <!-- 图片垂直列表（懒加载容器） -->
+    <div id="gallery"></div>
+
+    <!-- 应用脚本 -->
+    <script src="app.js"></script>
+</body>
+</html>
