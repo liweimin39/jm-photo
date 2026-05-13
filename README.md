@@ -23,9 +23,9 @@
 6.  按此层数将图片横向切割并按正确顺序重新绘制。
 
 ### 使用步骤
-1.  打开项目网页 `jm-photo`测试站 `https://jm.xiaoli.icpx.store/`）。
+1.  打开项目网页 `jm-photo`测试站 `https://liweimin39.github.io/jm/index.html`。
 2. 打开`https://jmcomicne.net/`里的链接找到你想还原的漫画网页/URL有JM号
-3.  在 测试站 `https://jm.xiaoli.icpx.store/`）中输入对应的JM号。
+3.  在 测试站 `https://liweimin39.github.io/jm/index.html`中输入对应的JM号。
 4.  选择图片CDN点击"加载图片"工具将自动计算分割参数并显示完整图片。
 
 ## ⚠  重要提醒与局限性
@@ -36,7 +36,7 @@
     - 主要参考文章：
       - [Code糕手](https://blog.csdn.net/qq_36684855/article/details/121582883)
       - [error=Nil](https://blog.csdn.net/m0_50233241/article/details/148189510)
-4.  **测试站**：您可以使用 `https://jm.xiaoli.icpx.store/` 进行功能测试，但其图片链接与正式站可能不同。
+4.  **测试站**：您可以使用 `https://liweimin39.github.io/jm/index.html` 进行功能测试，但其图片链接与正式站可能不同。
 
 
 
